@@ -100,7 +100,7 @@ function generate_server_leaf() {
 
         #create intermediate ca configuration file
     cat > $SERVER/$SERVER.cnf <<EOL
-    subjectAltName = DNS:localhost, DNS:[::1]
+    subjectAltName = DNS:localhost, DNS:[::1], DNS:[0:0:0:0:0:0:0:1], IP:127.0.0.1, IP:127.0.1.1
 EOL
 
     generate_private_key $SERVER
