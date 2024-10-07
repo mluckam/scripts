@@ -1,0 +1,9 @@
+#files
+
+#file types
+
+#folders
+**/certs/**
+**/.idea/*
+!.idea/codeStyles/
+**/.vscode/**

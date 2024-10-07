@@ -1,0 +1,13 @@
+#Keep entries alphabetized for organization
+#All files will have LF (linux) line endings, unless otherwise specified below
+* text eol=lf
+
+#Denotes files that should have CRLF (Windows) line endings
+*.bat eol=crlf
+
+# Denote files that are binary and should not be modified.
+*.exe binary
+*.jar binary
+*.jks binary
+*.p12 binary
+*.png binary
